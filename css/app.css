@@ -1,0 +1,148 @@
+.navbar-brand {
+      font-size: 21px;
+      color: #df691a !important;
+      /*text-shadow: -1px 0px 0px rgba(255,255,255, .4),1px 0px 0px rgba(255,255,255, .4),0px -1px 0px rgba(255,255,255, .4), 0px 1px 0px rgba(255,255,255, .4);*/
+      
+      white-space: nowrap;
+}
+
+#slogan {
+	position: absolute;
+	top: 38%;
+	margin-left: auto;
+	margin-right: auto;
+    display: inline-block;
+    right:0;
+    left:0;
+    width: 280px;
+}
+
+.waitforimage, .waitforimages {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#art {
+    position:relative;
+}
+#art img {
+    width: 100px;
+    position: absolute;
+    right: -50px;
+    top: -30px;
+    opacity: .6;
+}
+
+#summary,#myskills {
+    width: 480px;    
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 16px;
+    }
+
+    #skillset,  #summary, #myskills {
+        width: 300px;        
+        margin: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-brand {
+        letter-spacing: -1px;
+          padding-right: 0;
+          padding-left: 8px;
+    }
+}
+
+ body {
+    padding-top: 50px;
+}
+
+.starter-info {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+#photo {
+    margin-top: 200px;
+    height: 120px;
+    width: 120px;
+    border: 1px solid #ffffff;
+    background-image: url('/img/23062013960.jpg?v=1');
+    background-size: 140px auto;
+    border-radius: 100px;
+    background-position-y: -25px;
+    background-position-x: -1px;
+    margin: 110px auto auto auto;
+}
+
+#title {
+    text-align:center;
+}
+
+.btn {
+    transition: all 200ms ease-in;
+}
+
+.navbar-default .navbar-nav > li > a {
+    transition: all 200ms ease-in;
+}
+
+.icon-info-circled {
+    display: none;
+}
+
+.skillset-list li {
+    color: #ffffff !important;
+}
+/*#readmore-container {
+    padding: 10px;
+    position: relative;
+}
+
+#readmore-container #readmore-a {
+transform: rotateX(0deg);
+transition-property: all;
+transition-duration: 400ms;
+position: absolute;
+top: 10px;
+left: 10px;
+right: 10px;
+bottom: 10px;
+height: 30px;
+  width: 70px;
+  z-index: 99;
+}
+
+#readmore-container #readmore-b {
+transform: rotateX(270deg);
+transition-property: all;
+transition-duration: 400ms;
+position: absolute;
+top: 10px;
+left: 10px;
+right: 10px;
+bottom: 10px;
+height: 30px;
+  width: 70px;
+  z-index: 98;
+}
+
+
+#readmore-container:hover #readmore-a {
+    transform: rotateX(90deg);
+    transition-property: all;
+    transition-duration: 400ms;
+    z-index: 98;
+}
+
+#readmore-container:hover #readmore-b {
+    transition-delay: 400ms;
+    transform: rotateX(360deg);
+    transition-property: all;
+    transition-duration: 400ms;
+    z-index: 99;
+}*/
